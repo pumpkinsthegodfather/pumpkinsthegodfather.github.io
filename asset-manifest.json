@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/pumpkinsthegodfather.github.io/static/css/main.36c2c0d6.chunk.css",
+    "main.js": "/pumpkinsthegodfather.github.io/static/js/main.d3818956.chunk.js",
+    "main.js.map": "/pumpkinsthegodfather.github.io/static/js/main.d3818956.chunk.js.map",
+    "runtime-main.js": "/pumpkinsthegodfather.github.io/static/js/runtime-main.4e5c92a3.js",
+    "runtime-main.js.map": "/pumpkinsthegodfather.github.io/static/js/runtime-main.4e5c92a3.js.map",
+    "static/js/2.44b01a70.chunk.js": "/pumpkinsthegodfather.github.io/static/js/2.44b01a70.chunk.js",
+    "static/js/2.44b01a70.chunk.js.map": "/pumpkinsthegodfather.github.io/static/js/2.44b01a70.chunk.js.map",
+    "index.html": "/pumpkinsthegodfather.github.io/index.html",
+    "static/css/main.36c2c0d6.chunk.css.map": "/pumpkinsthegodfather.github.io/static/css/main.36c2c0d6.chunk.css.map",
+    "static/js/2.44b01a70.chunk.js.LICENSE.txt": "/pumpkinsthegodfather.github.io/static/js/2.44b01a70.chunk.js.LICENSE.txt",
+    "static/media/1.48a125c5.jpg": "/pumpkinsthegodfather.github.io/static/media/1.48a125c5.jpg",
+    "static/media/2.22000136.jpg": "/pumpkinsthegodfather.github.io/static/media/2.22000136.jpg",
+    "static/media/3.914040b0.jpg": "/pumpkinsthegodfather.github.io/static/media/3.914040b0.jpg",
+    "static/media/background.becb27cd.jpg": "/pumpkinsthegodfather.github.io/static/media/background.becb27cd.jpg",
+    "static/media/github.dc2f81c4.png": "/pumpkinsthegodfather.github.io/static/media/github.dc2f81c4.png",
+    "static/media/mail.c080688a.png": "/pumpkinsthegodfather.github.io/static/media/mail.c080688a.png",
+    "static/media/App.css": "/pumpkinsthegodfather.github.io/static/media/roboto-slab-v13-latin-regular.d1f41821.ttf",
+    "static/media/project-engineering.6171b2c6.pdf": "/pumpkinsthegodfather.github.io/static/media/project-engineering.6171b2c6.pdf",
+    "static/media/project-engineering.7868e1ae.jpg": "/pumpkinsthegodfather.github.io/static/media/project-engineering.7868e1ae.jpg",
+    "static/media/pvsnp.070a24d6.png": "/pumpkinsthegodfather.github.io/static/media/pvsnp.070a24d6.png",
+    "static/media/pvsnp.a38fd9a7.pdf": "/pumpkinsthegodfather.github.io/static/media/pvsnp.a38fd9a7.pdf",
+    "static/media/rocket-ship.3a0328d0.pdf": "/pumpkinsthegodfather.github.io/static/media/rocket-ship.3a0328d0.pdf",
+    "static/media/rocket-ship.74170605.jpg": "/pumpkinsthegodfather.github.io/static/media/rocket-ship.74170605.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e5c92a3.js",
+    "static/js/2.44b01a70.chunk.js",
+    "static/css/main.36c2c0d6.chunk.css",
+    "static/js/main.d3818956.chunk.js"
+  ]
+}
