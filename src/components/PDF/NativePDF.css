@@ -1,0 +1,9 @@
+.pdf-holder {
+    min-height: 100vh;
+    display: flex;
+}
+
+#pdf {
+    border: none;
+    width: 100vw;
+}

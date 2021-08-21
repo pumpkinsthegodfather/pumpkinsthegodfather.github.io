@@ -1,0 +1,34 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+		Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	position: relative;
+	z-index: 999;
+	width: 100%;
+	height: auto;
+	border-top: 10px black solid;
+	background-color: #ffffff;
+	margin-bottom: -25px;
+}
+
+.gradient {
+	margin-top: -8px;
+	background: rgb(181, 145, 20);
+	background: linear-gradient(
+		180deg,
+		rgba(181, 145, 20, 1) 0%,
+		rgba(184, 67, 110, 1) 50%,
+		rgba(133, 17, 204, 1) 100%
+	);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

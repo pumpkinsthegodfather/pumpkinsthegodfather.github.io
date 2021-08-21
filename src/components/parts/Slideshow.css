@@ -1,0 +1,67 @@
+#slideshowtext {
+	text-align: center;
+	font-size: 2.75em;
+	padding-top: 4rem;
+}
+
+.react-3d-carousel {
+	margin-bottom: 4rem;
+}
+
+.react-3d-carousel .slider-container .slider-left div,
+.slider-right div {
+	border-color: #00000000 !important;
+}
+
+.react-3d-carousel
+	.slider-container
+	.slider-content
+	.slider-single.preactive.preactive
+	.slider-single-content {
+	filter: brightness(0.75) blur(4px) !important;
+}
+
+.react-3d-carousel
+	.slider-container
+	.slider-content
+	.slider-single.proactive.proactive
+	.slider-single-content {
+	filter: brightness(0.75) blur(4px) !important;
+}
+
+.slide-holder,
+.slide-a {
+	line-height: 0;
+}
+
+.slide-image {
+	max-height: 400px;
+}
+
+.react-3d-carousel
+	.slider-container
+	.slider-content
+	.slider-single
+	.slider-single-content {
+	box-shadow: none !important;
+}
+
+@media only screen and (min-width: 33.75em) {
+	.react-3d-carousel .slider-container .slider-right > div > i {
+		transform: scale(2);
+	}
+
+	.react-3d-carousel .slider-container .slider-left > div > i {
+		transform: scale(2);
+	}
+}
+
+@media only screen and (min-width: 54em) {
+	.react-3d-carousel .slider-container .slider-right {
+		left: calc(50% + 266.6625px + 1em) !important;
+	}
+
+	.react-3d-carousel .slider-container .slider-left {
+		right: calc(50% + 266.6625px + 1em) !important;
+	}
+}

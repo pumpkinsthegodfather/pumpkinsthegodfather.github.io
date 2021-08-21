@@ -1,0 +1,130 @@
+.aboutMe {
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutMeTitle {
+    font-size: 4rem;
+    margin: 10px auto;
+    letter-spacing: 6px;
+    padding: 5px;
+    filter: drop-shadow(0px 0px 20px #ffffff33);
+}
+
+.aboutMeDescription {
+    font-weight: 500;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.aboutMeLinks {
+    margin-bottom: 4rem;
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.aboutMeLinks li {
+    margin: 20px;
+    padding: 5px 15px 5px 5px;
+    background-color: #c4c4c466;
+    font-size: 1rem;
+}
+
+.aboutMeLinks li:active {
+	transform: scale(0.98);
+}
+
+.aboutMeLinks a {
+	text-decoration: none;
+    color: black;
+}
+
+.aboutMeLinks li img {
+    float: left;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    filter: brightness(0);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+
+  width: 150px;
+  bottom: 150%;
+  left: 50%;
+  margin-left: calc(-150px/2); /* Use half of the width (120/2 = 60), to center the tooltip */
+
+  opacity: 0.75;
+
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.creator {
+	position: absolute;
+	left: 4px;
+	bottom: 2px;
+	font-size: 12px;
+}
+
+.creator a {
+	text-decoration: underline;
+}
+
+@media only screen and (min-width:43.76em) { 
+    .aboutMeTitle {
+        font-size: 5.5rem;
+        margin-bottom: 1rem;
+    }
+    .aboutMeDescription {
+        font-size: 1.5rem;
+    }
+
+    .aboutMeLinks {
+        margin-top: 5rem;
+        transform: scale(1.3);
+    }
+}

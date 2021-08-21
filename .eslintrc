@@ -1,0 +1,7 @@
+{
+	"extends": "react-app",
+	"rules": {
+		"import/first": 0,
+		"react-hooks/exhaustive-deps": 0
+	}
+}

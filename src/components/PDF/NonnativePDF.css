@@ -1,0 +1,76 @@
+html,
+body {
+	min-width: fit-content;
+	min-height: 100vh;
+}
+
+body {
+	background-color: #525659;
+}
+
+#toolbar {
+	z-index: 2;
+	background-color: #323639;
+	height: 4vh;
+	width: 100%;
+	position: fixed;
+}
+
+#downloadPDF {
+	background-image: url("../../media/images/icons/download_pdf.png");
+	background-size: cover;
+	opacity: 0.75;
+
+	float: right;
+
+	height: 2.5vh;
+	width: 2.5vh;
+
+	margin: 0.4vh;
+	padding: 0.1vh;
+}
+
+#downloadPDF:hover {
+	opacity: 1;
+}
+
+.react-pdf__Document {
+	background-color: #525659;
+	padding-top: 4vh;
+}
+
+.react-pdf__Document .react-pdf__Page:not(:first-child) {
+	margin-top: 1vh;
+}
+
+.react-pdf__Document .react-pdf__Page:last-child {
+	padding-bottom: 1vh;
+}
+
+.react-pdf__Page {
+	display: flex;
+	justify-content: center;
+}
+
+.react-pdf__Page__textContent span {
+	opacity: 0.1;
+}
+
+.react-pdf__Page__textContent span::selection {
+	background-color: blue;
+}
+
+.react-pdf__Document {
+	line-height: initial;
+}
+
+.linkAnnotation {
+	position: absolute;
+	margin-left: calc((100% - 612px) / 2);
+}
+
+.linkAnnotation a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
